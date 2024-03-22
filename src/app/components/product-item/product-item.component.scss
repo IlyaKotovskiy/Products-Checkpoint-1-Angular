@@ -1,0 +1,22 @@
+.item {
+  padding: 9px 14px 18px;
+  background-color: #CCE3DE;
+  border-radius: 22px;
+  border: 1px solid #ABABAB;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  img {
+    border-radius: 50%;
+  }
+
+  p {
+    background-color: #A4C3B2;
+    font-weight: bold;
+    padding: 4px;
+    border: 1px solid #ABABAB;
+    border-radius: 22px;
+  }
+}

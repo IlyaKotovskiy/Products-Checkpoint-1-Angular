@@ -1,0 +1,72 @@
+.anyFilteres {
+  padding: 30px 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: #CCE3DE;
+  border: 1px solid #ABABAB;
+  border-radius: 22px;
+  max-width: 450px;
+  padding: 14px 20px 20px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 26px;
+}
+
+.inputs,
+.ranges {
+  width: 185px;
+}
+
+.inputWrapper {
+  input,
+  select {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ABABAB;
+    border-radius: 22px;
+    padding: 5px 10px 7px;
+
+    &::placeholder {
+      font-weight: 800;
+    }
+  }
+
+  input {
+    margin-bottom: 16px;
+  }
+}
+
+label {
+  width: 100%;
+
+  p {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+}
+
+.rangeWrapper {
+  input {
+    -webkit-appearance: none;
+    margin-right: 15px;
+    width: 200px;
+    height: 7px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 22px;
+    background-color: #FFFFFF;
+    background-size: 70% 100%;
+    background-repeat: no-repeat;
+
+    &:first-child {
+      margin-bottom: 16px;
+    }
+  }
+
+  .minmax {
+    display: flex;
+    justify-content: space-between;
+  }
+}
